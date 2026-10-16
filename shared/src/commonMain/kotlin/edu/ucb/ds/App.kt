@@ -16,9 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
 
-import designsystem.shared.generated.resources.Res
-import designsystem.shared.generated.resources.compose_multiplatform
-
+import edu.ucb.ds.shared.generated.resources.Res
+import edu.ucb.ds.shared.generated.resources.compose_multiplatform
 @Composable
 @Preview
 fun App() {

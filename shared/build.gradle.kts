@@ -5,7 +5,11 @@ plugins {
     alias(libs.plugins.androidMultiplatformLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    id("maven-publish")
 }
+
+group = "edu.ucb.ds"
+version = "1.0.0-SNAPSHOT"
 
 kotlin {
     listOf(
